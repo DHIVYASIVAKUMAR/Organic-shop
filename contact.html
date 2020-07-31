@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact-style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+                <!----------Header---------------> 
+        <div class="header1">
+            <div class="container1">
+            <div class="navbar1">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo1.png" width="100px" height="50px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+            </div>
+            </div>
+        </div>
+
+                <!----------Contact US---------------> 
+        <div class="contactus">
+            <div class="contact-details clearfix">
+                <h2 style="text-align: center;">CONTACT US</h2>
+                <div class="row">
+                    <div class="col s12 m5">
+                    <div class="contact-other">
+                        <p>30/F Oakwood Premier Joy-Nostalg Center No. 17 ADB Avenue, Ortigas Center, Pasig City 1600, Philippines.</p>
+                    </div>
+                    <div class="contact-other">
+                        <i class="fa fa-phone"></i>&nbsp;
+                        <p>+63 (02) 550-2420</p>
+                    </div>
+                    </div>
+                    <div class="col s12 m4">
+                    <div class="contact-other">
+                        <i class="fa fa-envelope-o"></i>&nbsp;
+                        <p>info.philippines@fujifilm.com</p>
+                    </div>
+                    <div class="contact-other">
+                        <i class="fa fa-internet-explorer"></i>&nbsp;
+                        <a href="http://fujifilm.com.ph">http://fujifilm.com.ph</a>
+                    </div>
+                    </div>
+                    <div class="col m3 hide-on-small-only">
+                        <div class="contact-other img">
+                          <img src="https://image.ibb.co/d0z4i5/placeholder.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                    <br><br>
+            </div>
+                <!----------Connect With US---------------> 
+            <div class="connect">
+                <h2 style="text-align: center;">CONNECT WITH US!!!</h2><br><br>
+                <div class="card">
+                    <div class="contact" style="width: 100%;">
+                        <form action="#">
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                        </form>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+
+                <!----------Footer---------------> 
+
+        <div class="footer">
+            <div class="container1">
+                <div class="row">
+                    <div class="footer-col1">
+                    <h3>Follow Us On</h3>
+                        <p>Below Social Media Pages..!</p>
+                        <div class="app-logo">
+                            <img src="images/facebook-logo.png" style="size: 100px;">
+                            <img src="images/instagram-logo.png" style="size: 100px;">
+                            <img src="images/twitter-logo.png" style="size: 100px;">
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                    <img src="images/logo3.png">
+                        <p>Let's build a healthy lifestyle and atmosphere for our next generation</p>
+                    </div>
+                    <div class="footer-col3">
+                    <h3>Location</h3>
+                        <ul>
+                            <li class="fontcolor"><a href="#" >Chennai</a></li>
+                            <li class="fontcolor"><a href="#" >Bangalore</a></li>
+                            <li class="fontcolor"><a href="#" >Mumbai</a></li>
+                            <li class="fontcolor"><a href="#" >Hyderabad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                        <ul>
+                            <li class="fontcolor"><a href="#" >Facebook</a></li>
+                            <li class="fontcolor"><a href="#">Twitter</a><li>
+                            <li class="fontcolor"><a href="#">Instagram</a></li>
+                            <li class="fontcolor"><a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - 6GANIC SERVICES</p>
+            </div>
+        </div>
+
+                <!----------Menu Toggler---------------> 
+        <script>
+    
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight = "0px";
+            
+            function menutoggle()
+            {
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }else
+                    {
+                        MenuItems.style.maxHeight = "0px"
+                    } 
+            }
+            
+        </script>
+        
+    </body>
+
+
+</html>

@@ -1,0 +1,97 @@
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2px 16px;
+}
+
+.contactus {
+  background-image: url('../images/bg-img-2.jpg');
+}
+.contact-details {
+    /*background:#ffd6d6;*/
+    color:#5f5f5f;
+    padding:30px 25px 10px;
+    margin-bottom: 0px;
+  }
+
+  .contact-details h2 {
+    text-transform:uppercase;
+    margin: 0 0 15px;
+    font-size:30px;
+    font-weight:bold;
+    color:#000;
+  }
+
+  .contact-other a{
+    display: inline-block;
+    margin-right: 10px;
+    color:#dd183f;
+  }
+
+  .contact-other.img {
+    text-align: center;
+  }
+
+  .contact-other.img img{
+    max-width:55%;
+  }
+
+  .contact-other p{
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size:15px
+  }
+
+  .connect {
+   /* background-image: url('../images/bg-img-2.jpg');*/
+    /*background:#ffd6d6;*/
+  }
+
+ .connect h2{
+    text-transform:uppercase;
+    margin: 0 0 15px;
+    font-size:30px;
+    font-weight:bold;
+    color:#000;
+ }
+
+.contact input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .contact input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /*.card {
+    /* Add shadows to create the "card" effect */
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    
+    text-align: center;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
